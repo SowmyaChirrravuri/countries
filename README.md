@@ -7,8 +7,10 @@ Clone the project - https://github.com/SowmyaChirrravuri/countries/
 Open it on Android studio
 Run the Project
 
-## App video
-assets/walmart.gif
+
+##  App Demo
+![App Demo] (https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmplY2Juam1qdDlxMDlhMnh5eHVkYnhrczJsd2hyaHdmb2o0YmJ3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wBDMhQRp5RaoBtYPjO/giphy.gif)
+
 
 ## App Running instructions
 on launching the app, the main screen displays a list of countries automatically retrieved from a 
