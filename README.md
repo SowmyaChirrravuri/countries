@@ -8,7 +8,7 @@ Open it on Android studio
 Run the Project
 
 ## App video
-[App Demo](assets/walmart.gif)
+assets/walmart.gif
 
 ## App Running instructions
 on launching the app, the main screen displays a list of countries automatically retrieved from a 
