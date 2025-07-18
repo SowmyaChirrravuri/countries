@@ -3,8 +3,12 @@
 An Android app that fetches country data from a REST API and displays it using RecyclerView.
 
 ## Installation
-clone
+Clone the project - https://github.com/SowmyaChirrravuri/countries/
+Open it on Android studio
+Run the Project
 
+## App video
+![App Demo](assets/countries.webm)
 
 ## App Running instructions
 on launching the app, the main screen displays a list of countries automatically retrieved from a 
@@ -13,9 +17,9 @@ on launching the app, the main screen displays a list of countries automatically
 ## Architecture and other technical considerations
 
 1. Used MVVM architecture
-2. Used Service Locator
+2. Used Service Locator for dependencies 
 3. Unit testing with Mockito
-4. Retrofit for networks
+4. Retrofit for networking calls
 5. Kotlin Coroutine
 6. RecyclerView
 
