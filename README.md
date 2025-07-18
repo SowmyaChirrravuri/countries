@@ -9,7 +9,12 @@ Run the Project
 
 
 ##  App Demo
-![App Demo] (https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmplY2Juam1qdDlxMDlhMnh5eHVkYnhrczJsd2hyaHdmb2o0YmJ3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wBDMhQRp5RaoBtYPjO/giphy.gif)
+![App Demo] https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmplY2Juam1qdDlxMDlhMnh5eHVkYnhrczJsd2hyaHdmb2o0YmJ3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wBDMhQRp5RaoBtYPjO/giphy.gif
+
+## APP Image
+![Home Screen](screenshot/1.png)
+![Home Screen](screenshot/loadingindicator.png)
+![Home Screen](screenshot/recyclerview.png)
 
 
 ## App Running instructions
