@@ -4,8 +4,9 @@ An Android app that fetches country data from a REST API and displays it using R
 
 ## Installation
 Clone the project - https://github.com/SowmyaChirrravuri/countries/
-Open it on Android studio
+Open it on Android studio latest version 
 Run the Project
+
 
 
 ##  App Demo
@@ -21,6 +22,7 @@ on launching the app, the main screen displays a list of countries automatically
 2. Used Service Locator for dependencies 
 3. Unit testing with Mockito
 4. Retrofit for networking calls
-5. Kotlin Coroutine
-6. RecyclerView
+5. Kotlin Coroutines
+6. Adding pagination 
+7.RecyclerView
 
