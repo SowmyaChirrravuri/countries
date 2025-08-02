@@ -5,7 +5,7 @@ An Android app that fetches country data from a REST API and displays it using R
 ## Installation
 Clone the project - https://github.com/SowmyaChirrravuri/countries/
 Open it on Android studio
-Run the Project
+Run the Android Project
 
 
 ##  App Demo
