@@ -21,13 +21,13 @@ sealed class UiResult<out T> {
 
 class CountryViewModel(val repository: CountryRepository = ServiceLocator.repository) : ViewModel() {
 
-    private val _countries = MutableLiveData<UiResult<List<Country>>>()
+    private val _countries = MutableLiveData<  UiResult<List<Country>>>()
     val countries: LiveData<UiResult<List<Country>>> = _countries
 
     fun loadCountries() {
         _countries.value = UiResult.Loading
         viewModelScope.launch {
-            when (val result = repository.fetchCountries()) {
+            when (val result = repository.  fetchCountries()) {
                 is Result.Success -> _countries.value = UiResult.Success(result.data)
                 is Result.Error -> _countries.value = UiResult.Error(result.message)
                 else -> {}
