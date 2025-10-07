@@ -17,13 +17,9 @@ sealed class UiResult<out T> {
     data class Error(val message: String) : UiResult<Nothing>()
     object Loading : UiResult<Nothing>()
 }
-
-
 class CountryViewModel(val repository: CountryRepository = ServiceLocator.repository) : ViewModel() {
-
-    private val _countries = MutableLiveData<  UiResult<List<Country>>>()
+    private val _countries = MutableLiveData<UiResult<List<Country>>>()
     val countries: LiveData<UiResult<List<Country>>> = _countries
-
     fun loadCountries() {
         _countries.value = UiResult.Loading
         viewModelScope.launch {
